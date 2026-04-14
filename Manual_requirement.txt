@@ -1,0 +1,27 @@
+pip install uv
+uv --version
+uv init
+uv sync
+
+#after first cell of code in API_calls Notebook:
+uv add openai -> so it'll add open-ai packages to our virtual environment
+
+
+#But If you get some error like openai module not found then
+pip install openai
+
+
+
+#in the Second Chapter:
+#To work with Langchain first import add the langchain then import it.
+#Run these three one-by-one in the vs code terminal:
+uv add langchain
+uv add langchain_openai
+uv add langchain_community
+
+pip install pypdf
+
+
+uv add chromadb
+
+pip install -U duckduckgo-search
